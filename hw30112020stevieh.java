@@ -30,7 +30,7 @@ public class Main
     java.util.Scanner prn = new Scanner(System.in);
     System.out.print("Please enter your full name: ");
     String my_name = prn.nextLine();
-    long my_savings = 100000;
+    long my_savings = 0;    // 100000 for debugging run
     my_savings += 10000;
     my_savings *= 2;
     my_savings += 30000;
@@ -38,8 +38,8 @@ public class Main
     my_savings /= 2;
     System.out.println(my_name + " has savings of " + my_savings);
 
-    // HW: The original savings amount is 25000
-    // HW: Bill Gates's savings amount (in debugging) is 125000
+    // The original savings amount is 25000
+    // Bill Gates's savings amount (in debugging) is 125000
        
     }
 }
